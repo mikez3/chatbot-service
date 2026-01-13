@@ -1,0 +1,13 @@
+# Core FastAPI dependencies
+fastapi==0.116.1
+uvicorn[standard]==0.32.1
+# gunicorn
+
+# LLM
+ollama
+langchain
+# langchain-community
+langchain-ollama
+
+# UI
+gradio
