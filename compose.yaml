@@ -1,8 +1,7 @@
 services:
   webservice:
     image: mikez3/uniche-llm-webservice:latest  # Use Docker Hub image
-    # image: uniche-llm-webservice:latest
-    build:  # uncomment only when building locally
+    build:
       context: .  # = Use the current folder (where this compose file is) as the base for everything.
     ports:
       - 8083:8000
@@ -11,3 +10,4 @@ services:
 
 volumes:
   ollama_data:
+
